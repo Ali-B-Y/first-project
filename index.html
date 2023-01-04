@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <title>404 Page</title>
+  <link href="./styles.css" rel="stylesheet" />
 </head>
+
 <body>
-     <h1>Пробую первый коммит + редактирования<h1>
+  <header>
+    <img class="picture" src="./empty-boxes.svg" alt=" К сожалению изображение отсутствует">
+  </header>
+  <main>
+    <h1 class="errornumber">404</h1>
+    <div class="errortext">
+      <p class="p">Сервер должен отвечать на входящие
+        HTTP-запросы. Например, когда вы вводите
+        URL в адресную строку браузера, то
+        отправляется запрос на сервер, чтобы тот
+        вернул соответствующую веб-страницу.
+        Если страница была перемещена, удалена
+        или её не существовало вовсе, сервер
+        вернёт ошибку 404.</p>
+    </div>
+  </main>
+  <footer>
+    <h2 class="backtomain">Вернуться на <a style="color: #2f80ed" href="https://practicum.yandex.ru/">главную
+        страницу</a></h2>
+  </footer>
 </body>
+
 </html>

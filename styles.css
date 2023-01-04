@@ -1,0 +1,53 @@
+body {
+  color: #2f80ed;
+  font-family: "Inter", Helvetica, Arial, sans-serif;
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+.picture {
+  width: 520px;
+  height: 190px;
+  margin: 110px 380px 10px;
+}
+
+.errornumber {
+  font-size: 120px;
+  font-weight: normal;
+  margin: 0px 430px 0px;
+  padding: 0px;
+  width: 420px;
+  text-align: center;
+}
+
+.errortext {
+  font-size: 17px;
+  font-weight: normal;
+  margin: 22px 430px 0px;
+  width: 420px;
+  height: 200px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0px 20px 0px;
+  position: absolute;
+  display: none;
+}
+
+.p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.backtomain {
+  font-size: 17px;
+  font-weight: normal;
+  width: 420px;
+  margin: 280px 430px 30px;
+  padding: 0px;
+  text-align: center;
+}
+
+.errornumber:hover ~ .errortext {
+  display: block;
+}
